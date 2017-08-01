@@ -1,0 +1,232 @@
+/*样式通过id限定
+尽可能多使用直接子代选择器*/
+
+
+@charset "UTF-8";
+/*css 初始化 */
+html, body, ul, li, ol, dl, dd, dt, p, h1, h2, h3, h4, h5, h6, form, fieldset, legend, img {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow:Scroll;
+    overflow-x:hidden;
+    font-family:  Microsoft Yahei;
+    font-size: 14px;
+}
+
+fieldset, img, input, button {
+    border: none;
+    padding: 0;
+    margin: 0;
+    outline-style: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+input {
+    padding-top: 0;
+    padding-bottom: 0;
+    font-family: "SimSun", "宋体";
+}
+
+select, input {
+    vertical-align: middle;
+}
+
+select, input, textarea {
+    font-size: 12px;
+    margin: 0;
+}
+textarea {
+    resize: none;
+}
+
+/*防止拖动*/
+img {
+    border: 0;
+    vertical-align: middle;
+}
+
+/*  去掉图片低测默认的3像素空白缝隙*/
+table {
+    border-collapse: collapse;
+}
+.clearfix:before, .clearfix:after {
+    content: "";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.clearfix {
+    *zoom: 1; /*IE/7/6*/
+}
+
+a {
+    color: #666;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #C81623;
+}
+
+
+s, i, em {
+    font-style: normal;
+    text-decoration: none;
+}
+body{
+    font-family: "Helvetica Neue", Helvetica, Microsoft Yahei, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    background-color: #f6f6f6;
+}
+
+@font-face {
+    font-family: 'itcast';
+    src: url('../font/MiFie-Web-Font.eot') format('embedded-opentype'),
+    url('../font/MiFie-Web-Font.svg') format('svg'),
+    url('../font/MiFie-Web-Font.ttf') format('truetype'),
+    url('../font/MiFie-Web-Font.woff') format('woff');
+}
+
+[class^="icon-"],
+[class*=" icon-"]{
+    font-family: itcast;
+    font-style: normal;
+}
+
+
+.carousel-inner .item{
+    max-width: 2000px;
+
+}
+
+#header{
+    width: 100%;
+    height: 80px;
+    line-height: 80px;
+    color: #fff;
+    font-size: 20px;
+    background-color: #027dc3;
+}
+
+.title{
+    height: 80px;
+    line-height: 80px;
+}
+
+.daoyou{
+    margin-top: 60px;
+}
+.daoyou .daoyou-title{
+    height: 70px;
+    font-size: 16px;
+    line-height: 70px;
+
+}
+.daoyou .daoyou-title a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #666666;
+}
+.daoyou .daoyou-title a:hover{
+    color: #027cc3;
+}
+
+.daoyou .col-md-2{
+    padding-right: 0px;
+    padding-left: 22px;
+    height: 300px;
+}
+
+.thumbnail {
+    padding: 0px;
+    margin-bottom: 30px;
+}
+.thumbnail a img{
+    width: 210px;
+    height: 100px;
+}
+.pingfen {
+    position: absolute;
+    background-color: #f57d00;
+    top: 10px;
+    right: 29px;
+    padding-left: 5px;
+}
+.fenshucolor{
+    font-family: "微软雅黑";
+    color: white;
+    margin-right: -5px;
+}
+.caption p{
+    font-family: "微软雅黑";
+    color: #666;
+}
+.caption .dyname {
+    height: 40px;
+    font-weight: 700;
+    line-height: 40px;
+    font-size: 24px;
+}
+.caption .gxqm{
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: justify;
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Microsoft Yahei;
+}
+.thumbnail .gudingfen{
+    font-size: 14px;
+    color: white;
+}
+
+.star{
+    margin-left: 40px;
+    line-height: 40px;
+}
+
+
+.moneyimg{
+    background-color: #f57d00;
+}
+
+.anquan{
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #f83030;
+}
+.benjin{
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #000000;
+}
+
+.bigintime{
+    font-size: 16px;
+    margin-left: 20px;
+    line-height: 30px;
+    color: #017ac3;
+
+}
+li{
+    line-height: 26px;
+    margin-left: 200px;
+}
+.guizhe a{
+    color: #f83030;
+}
+.zhuche-title {
+    height: 40px;
+    margin-left: 120px;
+    line-height: 40px;
+}
